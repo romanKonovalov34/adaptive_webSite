@@ -1,0 +1,130 @@
+.featured {
+  margin-bottom: 150px;
+}
+@media (min-width: 768px) {
+  .featured {
+    padding: 0px 40px 0px 40px;
+  }
+}
+@media (min-width: 1080px) {
+  .featured {
+    padding: 0;
+  }
+}
+.featured__header {
+  min-height: 65px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .featured__header {
+    min-height: 97px;
+    font-size: 22px;
+    justify-content: start;
+  }
+}
+.featured__body {
+  display: flex;
+  flex-direction: column;
+}
+.featured__post {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #E0E0E0;
+  margin-top: 24px;
+  display: none;
+}
+@media (min-width: 768px) {
+  .featured__post {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.featured__post:first-child {
+  margin-top: 0;
+}
+.featured__post_active {
+  display: block;
+}
+@media (min-width: 768px) {
+  .featured__post_active {
+    display: flex;
+  }
+}
+.featured__img {
+  margin-bottom: 17px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .featured__img {
+    max-width: 246px;
+    margin-right: 20px;
+  }
+}
+@media (min-width: 1080px) {
+  .featured__img {
+    margin-right: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .featured__content {
+    max-width: 594px;
+  }
+}
+.featured__title {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+@media (min-width: 768px) {
+  .featured__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+  }
+}
+.featured__info {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+}
+.featured__date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 16px;
+  margin-right: 22px;
+  width: 62px;
+  height: 25px;
+  border-radius: 16px;
+  background-color: #142850;
+  color: white;
+}
+@media (min-width: 768px) {
+  .featured__date {
+    font-size: 18px;
+  }
+}
+.featured__topic {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29.38px;
+  color: #8695A4;
+}
+@media (min-width: 768px) {
+  .featured__topic {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 44px;
+  }
+}
+.featured__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}/*# sourceMappingURL=featured.css.map */

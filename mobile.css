@@ -1,0 +1,23 @@
+@import url("containers.css");
+@import url("menu.css");
+@import url("hi.css");
+@import url("recent.css");
+@import url("featured.css");
+@import url("footer.css");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  min-width: 320px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=mobile.css.map */

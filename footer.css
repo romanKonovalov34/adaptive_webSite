@@ -1,0 +1,31 @@
+.footer {
+  height: 182px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+}
+.footer__copyright {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.socials {
+  min-width: 232px;
+  margin-bottom: 26px;
+}
+.socials__items {
+  display: flex;
+  justify-content: space-between;
+}
+.socials__item {
+  list-style-type: none;
+}
+.socials__img {
+  display: block;
+}/*# sourceMappingURL=footer.css.map */

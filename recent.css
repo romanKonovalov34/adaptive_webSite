@@ -1,0 +1,141 @@
+.recent {
+  background-color: #EDF7FA;
+  padding-bottom: 38px;
+}
+@media (min-width: 768px) {
+  .recent {
+    padding: 0 40px 32px 40px;
+  }
+}
+@media (min-width: 1080px) {
+  .recent {
+    padding: 0 0px 32px 0px;
+  }
+}
+.recent__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+@media (min-width: 768px) {
+  .recent__header {
+    justify-content: space-between;
+    min-height: 69px;
+  }
+}
+.recent__header-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .recent__header-title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+  }
+}
+.recent__button {
+  display: none;
+}
+@media (min-width: 768px) {
+  .recent__button {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #00A8CC;
+  }
+}
+.recent__posts {
+  min-height: 617px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .recent__posts {
+    flex-direction: row;
+    min-height: 295px;
+  }
+}
+.recent__post {
+  height: 300px;
+  padding: 21px 19px;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+}
+@media (min-width: 768px) {
+  .recent__post {
+    max-width: 418px;
+  }
+  .recent__post:first-child {
+    margin-right: 15px;
+  }
+}
+@media (min-width: 1080px) {
+  .recent__post {
+    max-width: 418px;
+  }
+  .recent__post:first-child {
+    margin-right: 0;
+  }
+}
+.recent__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+  .recent__title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+  }
+}
+.recent__info {
+  display: flex;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .recent__info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+.recent__date {
+  margin-right: 48px;
+}
+.recent__date::after {
+  content: "";
+  position: absolute;
+  height: 21px;
+  width: 0;
+  border: 1px solid #000000;
+  color: black;
+  margin-left: 24px;
+  top: 1.5px;
+}
+.recent__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+@media (min-width: 768px) {
+  .recent__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}/*# sourceMappingURL=recent.css.map */
